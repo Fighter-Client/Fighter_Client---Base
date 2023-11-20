@@ -1,7 +1,4 @@
-![image](https://github.com/EaglerReborn/EaglerReborn/assets/134523836/e59bba1d-266b-4313-aa8f-18a7d39887b7)
----
-### Eaglercraft client with Java support and a plugin API.
-![title screen](https://github.com/EaglerReborn/EaglerReborn/assets/134523836/65852fd2-7667-43f8-8cd8-68dfc73ed686)
+The base model for fighter client.
 
 
 
@@ -39,41 +36,3 @@
 4. Type `chmod +x CompileLatestClient.sh` and hit enter
 5. Type `./CompileLatestClient.sh` and hit enter, a GUI resembling a classic windows installer should open
 6. Follow the steps shown to you in the new window to finish compiling
-
-
-## Joining Non-Eagler servers
-
-
-To join non eagler servers on the client, just do not include `wss://` in the server address. If you include `wss://`, the client will assume its an eagler server.
-
-If the server has both Java and Eagler support, you should definitely use Eagler. Here's why:
-
-1. Eagler is much faster than Java
-2. Eagler is supported natively without needing to use a relay, resulting in better ping.
-
----
-
-### Setting up a relay
-
-
-<a href="https://replit.com/new/github/EaglerReborn/relay"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/main/buttons/remade/replit.svg"></img></a>
-
-Just click the "Run on replit" button to make a relay.
-make sure to set it to "blank repl" 
-
-
----
-
-### Limitations
-- only SRV records are accepted
-- cannot add a port to the address of the server(for example example.com:25565 is not allowed)
-
-
-
-### Installing Plugins
-[How to install plugins](https://eaglerreborn.github.io/guide/InstallingPlugins.html)
-
-### Plugin API Documentation
-
-[PluginAPI.md](https://eaglerreborn.github.io/plugindocs)
-
