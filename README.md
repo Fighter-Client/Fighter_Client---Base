@@ -36,3 +36,8 @@
 4. Type `chmod +x CompileLatestClient.sh` and hit enter
 5. Type `./CompileLatestClient.sh` and hit enter, a GUI resembling a classic windows installer should open
 6. Follow the steps shown to you in the new window to finish compiling
+
+### Goals (1=top priority 3=least priority)
+1. Fix the loading screen
+2. Remove the otterdev loading screen(sorry otterdev)
+3. Make the title bigger
